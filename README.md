@@ -164,8 +164,8 @@ The guide follows the browser’s appearance preference, including changes while
 the page is open, with no theme selector. The small palette initialization
 override discards any previously saved manual theme choice so it cannot override
 the browser. System fonts avoid hosted font requests. Commented
-`project.extra.social` and repository settings mark where approved contact/social
-links and the eventual repository URL belong.
+`project.extra.social` marks where approved contact/social links belong.
+The repository link is intentionally omitted from the customer-facing header.
 
 Zensical's built-in browser search indexes all public Markdown pages across all
 products during the build. It ships its own local search assets/index, with no
@@ -189,7 +189,7 @@ confirmation of a successful deployment. To publish:
    `main` (or update the workflow branch settings).
 2. Enable Pages with **GitHub Actions** as the source, and allow the Actions and
    `github-pages` environment deployment permissions required by your repository.
-3. Add the real repository URL/name in `zensical.toml` if desired.
+3. Keep repository details in this README; the public header omits the repo link.
 4. Push only when ready for the workflow to publish.
 
 The current `site_url` is `https://aflemm.github.io/cct-guide/` so the initial
