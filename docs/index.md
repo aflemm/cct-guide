@@ -25,7 +25,6 @@ Hardware, app, and troubleshooting help — all in one place. Choose your produc
   <div class="guide-product__content">
     <p class="guide-product__eyebrow">PRODUCT GUIDE</p>
     <h2 id="smartbroom-title">SmartBroom 4</h2>
-    <p>Find your way around the hardware, the SmartBroom app, and troubleshooting.</p>
     <span class="guide-product__action">Explore the guide <span aria-hidden="true">→</span></span>
   </div>
 </a>
@@ -37,7 +36,6 @@ Hardware, app, and troubleshooting help — all in one place. Choose your produc
   <div class="guide-product__content">
     <p class="guide-product__eyebrow">PRODUCT GUIDE</p>
     <h2 id="smartbeam-title">SmartBeam</h2>
-    <p>Find your way around the hardware, the SmartBeam app, and troubleshooting.</p>
     <span class="guide-product__action">Explore the guide <span aria-hidden="true">→</span></span>
   </div>
 </a>

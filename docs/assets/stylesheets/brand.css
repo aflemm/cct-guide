@@ -55,8 +55,7 @@
 .guide-product__content { display: flex; flex: 1; flex-direction: column; padding: 1.2rem 1.4rem 1.4rem; }
 .md-typeset .guide-product__eyebrow { margin: 0 0 .4rem; }
 .md-typeset .guide-product h2 { margin: 0; font-size: 1.65rem; font-weight: 700; letter-spacing: -.035em; line-height: 1.2; }
-.md-typeset .guide-product__content > p:not(.guide-product__eyebrow) { margin: .55rem 0 1.3rem; font-size: .8rem; line-height: 1.65; color: var(--md-default-fg-color--light); }
-.guide-product__action { display: flex; justify-content: space-between; align-items: center; margin-top: auto; color: var(--guide-accent); font-size: .8rem; font-weight: 650; }
+.guide-product__action { display: flex; justify-content: space-between; align-items: center; margin-top: 1rem; color: var(--guide-accent); font-size: .8rem; font-weight: 650; }
 .guide-product__action > span { display: grid; place-items: center; width: 1.8rem; height: 1.8rem; border: 1px solid var(--guide-line); border-radius: 50%; font-size: 1rem; }
 .guide-home__support { display: flex; justify-content: space-between; align-items: center; gap: 1rem; margin-top: 1.8rem; padding: 1.3rem 0; border-bottom: 1px solid var(--guide-line); }
 .md-typeset .guide-home__support h2 { margin: 0 0 .25rem; font-size: .9rem; font-weight: 650; }
