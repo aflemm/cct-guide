@@ -1,6 +1,6 @@
 # Charging
 
-SmartBroom hardware documentation.
+SmartBroom documentation.
 
 --8<-- "documentation-status.md"
 

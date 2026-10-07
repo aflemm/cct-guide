@@ -1,15 +1,15 @@
-# Settings
+# Video
 
-SmartBeam app documentation.
+SmartBroom documentation.
 
 --8<-- "documentation-status.md"
 
 ## Overview
 
-> TODO: Document settings for SmartBeam app.
+> TODO: Document video for SmartBroom app.
 
 ## Instructions
 
 > TODO: Add verified instructions and screenshots for this topic.
 
-[Back to SmartBeam app](index.md)
+[Back to SmartBroom](index.md)

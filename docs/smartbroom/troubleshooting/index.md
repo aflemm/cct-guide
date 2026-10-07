@@ -4,6 +4,10 @@ Find troubleshooting topics for SmartBroom below.
 
 --8<-- "documentation-status.md"
 
+## Understanding the lights
+
+[Look up LED colours and patterns](../led-indicators.md).
+
 ## Topics
 
 - [Bluetooth and pairing](bluetooth-and-pairing.md)

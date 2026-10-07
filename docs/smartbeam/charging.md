@@ -1,6 +1,6 @@
 # Charging
 
-SmartBeam hardware documentation.
+SmartBeam documentation.
 
 --8<-- "documentation-status.md"
 

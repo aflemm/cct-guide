@@ -1,6 +1,6 @@
 # SmartBroom
 
-Find documentation for SmartBroom hardware and the **SmartBroom app** in this manual.
+One guide to using SmartBroom, from setup and connection to everyday use and troubleshooting.
 
 --8<-- "documentation-status.md"
 
@@ -12,17 +12,17 @@ Find documentation for SmartBroom hardware and the **SmartBroom app** in this ma
 
     [Start here](getting-started.md)
 
-- **Hardware usage**
+- **Using your product**
 
     ---
 
-    [Using SmartBroom](using-smartbroom.md) · [Charging](charging.md)
+    [Using SmartBroom](using-smartbroom.md) · [Charging](charging.md) · [LED indicators](led-indicators.md)
 
-- **SmartBroom app**
+- **Connect and use**
 
     ---
 
-    [Open the SmartBroom app guide](app/index.md)
+    [Connecting SmartBroom](connecting-smartbroom.md) · [Sessions](sessions.md) · [Charts](charts.md) · [Video](video.md) · [Settings](settings.md)
 
 - **Troubleshooting**
 
@@ -38,4 +38,4 @@ Find documentation for SmartBroom hardware and the **SmartBroom app** in this ma
 
 </div>
 
-[Support](../support/index.md)
+[Contact Curling Tools](../contact.md)

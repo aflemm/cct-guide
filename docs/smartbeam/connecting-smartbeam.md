@@ -1,6 +1,6 @@
 # Connecting SmartBeam
 
-SmartBeam app documentation.
+SmartBeam documentation.
 
 --8<-- "documentation-status.md"
 
@@ -12,4 +12,4 @@ SmartBeam app documentation.
 
 > TODO: Add verified instructions and screenshots for this topic.
 
-[Back to SmartBeam app](index.md)
+[Back to SmartBeam](index.md)

@@ -1,15 +1,15 @@
-# Getting started
+# Sessions
 
-SmartBeam app documentation.
+SmartBroom documentation.
 
 --8<-- "documentation-status.md"
 
 ## Overview
 
-> TODO: Document getting started for SmartBeam app.
+> TODO: Document sessions for SmartBroom app.
 
 ## Instructions
 
 > TODO: Add verified instructions and screenshots for this topic.
 
-[Back to SmartBeam app](index.md)
+[Back to SmartBroom](index.md)

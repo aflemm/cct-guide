@@ -1,15 +1,15 @@
-# Settings
+# Measurements
 
-SmartBroom app documentation.
+SmartBeam documentation.
 
 --8<-- "documentation-status.md"
 
 ## Overview
 
-> TODO: Document settings for SmartBroom app.
+> TODO: Document measurements for SmartBeam app.
 
 ## Instructions
 
 > TODO: Add verified instructions and screenshots for this topic.
 
-[Back to SmartBroom app](index.md)
+[Back to SmartBeam](index.md)

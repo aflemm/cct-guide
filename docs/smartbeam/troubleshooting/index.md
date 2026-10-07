@@ -4,6 +4,10 @@ Find troubleshooting topics for SmartBeam below.
 
 --8<-- "documentation-status.md"
 
+## Understanding the lights
+
+[Look up LED colours and patterns](../led-indication.md).
+
 ## Topics
 
 - [Bluetooth and pairing](bluetooth-and-pairing.md)

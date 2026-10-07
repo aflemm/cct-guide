@@ -1,6 +1,6 @@
 # Charts
 
-SmartBroom app documentation.
+SmartBroom documentation.
 
 --8<-- "documentation-status.md"
 
@@ -12,4 +12,4 @@ SmartBroom app documentation.
 
 > TODO: Add verified instructions and screenshots for this topic.
 
-[Back to SmartBroom app](index.md)
+[Back to SmartBroom](index.md)

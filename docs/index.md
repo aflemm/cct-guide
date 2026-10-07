@@ -12,8 +12,6 @@ hide:
 
 # Curling Tools User Guides { .guide-home__eyebrow }
 
-Hardware, app, and troubleshooting help — all in one place. Choose your product to get started.
-
 </div>
 
 <div class="guide-home__products">
@@ -48,11 +46,11 @@ Hardware, app, and troubleshooting help — all in one place. Choose your produc
 
 ## A little more help?
 
-Find warranty, safety, and contact information in Support.
+Get in touch with Curling Tools for questions and technical support.
 
 </div>
 
-[Visit Support →](support/index.md){ .guide-home__support-link }
+[Contact us →](contact.md){ .guide-home__support-link }
 
 </div>
 

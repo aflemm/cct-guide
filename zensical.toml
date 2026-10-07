@@ -12,19 +12,16 @@ nav = [
   { "SmartBroom" = [
     "smartbroom/index.md",
     { "Getting started" = "smartbroom/getting-started.md" },
+    { "Connecting SmartBroom" = "smartbroom/connecting-smartbroom.md" },
     { "Charging" = "smartbroom/charging.md" },
     { "Using SmartBroom" = "smartbroom/using-smartbroom.md" },
+    { "LED indicators" = "smartbroom/led-indicators.md" },
     { "Background recording" = "smartbroom/background-recording.md" },
+    { "Sessions" = "smartbroom/sessions.md" },
+    { "Charts" = "smartbroom/charts.md" },
+    { "Video" = "smartbroom/video.md" },
+    { "Settings" = "smartbroom/settings.md" },
     { "Firmware updates" = "smartbroom/firmware-updates.md" },
-    { "SmartBroom app" = [
-      "smartbroom/app/index.md",
-      { "Getting started" = "smartbroom/app/getting-started.md" },
-      { "Connecting SmartBroom" = "smartbroom/app/connecting-smartbroom.md" },
-      { "Sessions" = "smartbroom/app/sessions.md" },
-      { "Charts" = "smartbroom/app/charts.md" },
-      { "Video" = "smartbroom/app/video.md" },
-      { "Settings" = "smartbroom/app/settings.md" },
-    ] },
     { "Troubleshooting" = [
       "smartbroom/troubleshooting/index.md",
       { "Bluetooth and pairing" = "smartbroom/troubleshooting/bluetooth-and-pairing.md" },
@@ -37,16 +34,13 @@ nav = [
   { "SmartBeam" = [
     "smartbeam/index.md",
     { "Getting started" = "smartbeam/getting-started.md" },
+    { "Connecting SmartBeam" = "smartbeam/connecting-smartbeam.md" },
     { "Charging" = "smartbeam/charging.md" },
     { "Using SmartBeam" = "smartbeam/using-smartbeam.md" },
+    { "LED indication" = "smartbeam/led-indication.md" },
+    { "Measurements" = "smartbeam/measurements.md" },
+    { "Settings" = "smartbeam/settings.md" },
     { "Firmware updates" = "smartbeam/firmware-updates.md" },
-    { "SmartBeam app" = [
-      "smartbeam/app/index.md",
-      { "Getting started" = "smartbeam/app/getting-started.md" },
-      { "Connecting SmartBeam" = "smartbeam/app/connecting-smartbeam.md" },
-      { "Measurements" = "smartbeam/app/measurements.md" },
-      { "Settings" = "smartbeam/app/settings.md" },
-    ] },
     { "Troubleshooting" = [
       "smartbeam/troubleshooting/index.md",
       { "Bluetooth and pairing" = "smartbeam/troubleshooting/bluetooth-and-pairing.md" },
@@ -56,12 +50,7 @@ nav = [
       { "Reset" = "smartbeam/troubleshooting/reset.md" },
     ] },
   ] },
-  { "Support" = [
-    "support/index.md",
-    { "Warranty" = "support/warranty.md" },
-    { "Safety" = "support/safety.md" },
-    { "Contact" = "support/contact.md" },
-  ] },
+  { "Contact" = "contact.md" },
 ]
 
 [project.theme]
@@ -77,7 +66,6 @@ features = [
   "navigation.indexes",
   "navigation.path",
   "navigation.footer",
-  "navigation.top",
   "toc.follow",
   "search.highlight",
 ]

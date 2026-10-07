@@ -15,13 +15,13 @@ requirements.txt               Pinned Zensical and transitive dependencies
 README.md                      Contributor guide (not published)
 docs/
   index.md                     Product chooser
-  smartbroom/                  Hardware pages and product landing page
-    app/                       SmartBroom app manual
+  smartbroom/                  Unified product manual and landing page
+    connecting-smartbroom.md, sessions.md, charts.md, video.md, settings.md
     troubleshooting/           SmartBroom troubleshooting
-  smartbeam/                   Hardware pages and product landing page
-    app/                       SmartBeam app manual
+  smartbeam/                   Unified product manual and landing page
+    connecting-smartbeam.md, measurements.md, settings.md
     troubleshooting/           SmartBeam troubleshooting
-  support/                     Warranty, safety, contact
+  contact.md                   Contact details and troubleshooting links
   assets/images/
     smartbroom/                SmartBroom photos, diagrams, annotations
     smartbroom-app/            SmartBroom app screenshots
@@ -70,18 +70,19 @@ No Node, Docker, or additional build system is used by this project.
 
 ## Writing documentation
 
-Create a focused `.md` page within the relevant product, app, or troubleshooting
+Create a focused `.md` page within the relevant product or its troubleshooting
 folder. Use one H1, then descriptive H2/H3 headings in order. Add it explicitly to
 `project.nav` in `zensical.toml`, and link to source Markdown using relative paths:
 
 ```markdown
 [Charging](charging.md)
-[SmartBroom app](app/index.md)
+[Sessions](sessions.md)
 ```
 
-Zensical converts these to directory URLs, e.g. `smartbroom/app/sessions/`.
-Keep each app under its own product. There is no generic top-level Apps manual.
-Top-level tabs are Home, SmartBroom, SmartBeam, and Support; the left sidebar
+Zensical converts these to directory URLs, e.g. `smartbroom/sessions/`.
+Hardware and app tasks are one product experience: keep task pages directly
+under their product, with no separate app section or `app/` folder.
+Top-level tabs are Home, SmartBroom, SmartBeam, and Contact; the left sidebar
 contains the active section's documentation tree. Section index pages are first
 in their section's navigation list. Breadcrumbs, page TOCs, previous/next links,
 and responsive mobile navigation use the standard theme.
@@ -94,10 +95,12 @@ warranty terms, safety notices, or contact details. Remove the shared
 
 ### Add a product
 
-Create `docs/newproduct/index.md`, hardware pages such as `getting-started.md`,
-and `app/` and `troubleshooting/` subdirectories with their own `index.md` files.
+Create `docs/newproduct/index.md` and task pages such as `getting-started.md`,
+`connecting-newproduct.md`, `measurements.md`, and `settings.md` directly within
+the product directory. Add a `troubleshooting/` subdirectory with its own
+`index.md`. Keep hardware and app workflows together in the product navigation.
 Add one top-level `project.nav` section following the existing product pattern.
-Add a product card to `docs/index.md`, troubleshooting links to Support, and
+Add a product card to `docs/index.md`, troubleshooting links to Contact, and
 `docs/assets/images/newproduct/` and `newproduct-app/` as needed. There is no fixed
 product count or product-specific code to change.
 
@@ -113,8 +116,8 @@ WebP/JPEG for photos, and SVG for approved vector diagrams or branding.
 Link relative to the page:
 
 ```markdown
-<!-- Example from docs/smartbroom/app/charts.md; add the actual file first. -->
-![Describe the chart labels and relevant highlighted controls](../../assets/images/smartbroom-app/session-chart-ios.png)
+<!-- Example from docs/smartbroom/charts.md; add the actual file first. -->
+![Describe the chart labels and relevant highlighted controls](../assets/images/smartbroom-app/session-chart-ios.png)
 ```
 
 Every informative image needs meaningful alt text. Explain essential visual
@@ -214,6 +217,5 @@ and [custom workflow documentation](https://docs.github.com/en/pages/getting-sta
 ## Content still needed
 
 Supply approved hardware and app instructions, troubleshooting and reset steps,
-firmware procedures, screenshots/photos, safety notices, warranty terms, support
-contact details, favicon, and brand colors. The placeholder content provides
+firmware procedures, screenshots/photos, favicon, and brand colors. The placeholder content provides
 structure only and makes no technical product claims.

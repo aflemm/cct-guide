@@ -1,6 +1,6 @@
 # SmartBeam
 
-Find documentation for SmartBeam hardware and the **SmartBeam app** in this manual.
+One guide to using SmartBeam, from setup and connection to everyday use and troubleshooting.
 
 --8<-- "documentation-status.md"
 
@@ -12,17 +12,17 @@ Find documentation for SmartBeam hardware and the **SmartBeam app** in this manu
 
     [Start here](getting-started.md)
 
-- **Hardware usage**
+- **Using your product**
 
     ---
 
-    [Using SmartBeam](using-smartbeam.md) · [Charging](charging.md)
+    [Using SmartBeam](using-smartbeam.md) · [Charging](charging.md) · [LED indication](led-indication.md)
 
-- **SmartBeam app**
+- **Connect and use**
 
     ---
 
-    [Open the SmartBeam app guide](app/index.md)
+    [Connecting SmartBeam](connecting-smartbeam.md) · [Measurements](measurements.md) · [Settings](settings.md)
 
 - **Troubleshooting**
 
@@ -38,4 +38,4 @@ Find documentation for SmartBeam hardware and the **SmartBeam app** in this manu
 
 </div>
 
-[Support](../support/index.md)
+[Contact Curling Tools](../contact.md)
