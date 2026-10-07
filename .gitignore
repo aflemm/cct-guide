@@ -1,0 +1,11 @@
+# Local Python environment and caches
+.venv/
+__pycache__/
+*.py[cod]
+.cache/
+# Generated static site: never commit
+site/
+# Local OS/editor files
+.DS_Store
+.vscode/
+.idea/

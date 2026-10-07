@@ -1,0 +1,133 @@
+[project]
+site_name = "Curling Tools User Guide"
+# Temporary sharing URL; restore https://guide.curling.tools/ when the domain is connected.
+site_url = "https://aflemm.github.io/cct-guide/"
+site_description = "User guides for Curling Tools products."
+docs_dir = "docs"
+site_dir = "site"
+use_directory_urls = true
+extra_css = ["assets/stylesheets/brand.css"]
+repo_url = "https://github.com/aflemm/cct-guide"
+repo_name = "aflemm/cct-guide"
+edit_uri = "edit/main/docs/"
+nav = [
+  { "Home" = "index.md" },
+  { "SmartBroom" = [
+    "smartbroom/index.md",
+    { "Getting started" = "smartbroom/getting-started.md" },
+    { "Charging" = "smartbroom/charging.md" },
+    { "Using SmartBroom" = "smartbroom/using-smartbroom.md" },
+    { "Background recording" = "smartbroom/background-recording.md" },
+    { "Firmware updates" = "smartbroom/firmware-updates.md" },
+    { "SmartBroom app" = [
+      "smartbroom/app/index.md",
+      { "Getting started" = "smartbroom/app/getting-started.md" },
+      { "Connecting SmartBroom" = "smartbroom/app/connecting-smartbroom.md" },
+      { "Sessions" = "smartbroom/app/sessions.md" },
+      { "Charts" = "smartbroom/app/charts.md" },
+      { "Video" = "smartbroom/app/video.md" },
+      { "Settings" = "smartbroom/app/settings.md" },
+    ] },
+    { "Troubleshooting" = [
+      "smartbroom/troubleshooting/index.md",
+      { "Bluetooth and pairing" = "smartbroom/troubleshooting/bluetooth-and-pairing.md" },
+      { "Charging" = "smartbroom/troubleshooting/charging.md" },
+      { "Recording" = "smartbroom/troubleshooting/recording.md" },
+      { "Firmware updates" = "smartbroom/troubleshooting/firmware-updates.md" },
+      { "Reset" = "smartbroom/troubleshooting/reset.md" },
+    ] },
+  ] },
+  { "SmartBeam" = [
+    "smartbeam/index.md",
+    { "Getting started" = "smartbeam/getting-started.md" },
+    { "Charging" = "smartbeam/charging.md" },
+    { "Using SmartBeam" = "smartbeam/using-smartbeam.md" },
+    { "Firmware updates" = "smartbeam/firmware-updates.md" },
+    { "SmartBeam app" = [
+      "smartbeam/app/index.md",
+      { "Getting started" = "smartbeam/app/getting-started.md" },
+      { "Connecting SmartBeam" = "smartbeam/app/connecting-smartbeam.md" },
+      { "Measurements" = "smartbeam/app/measurements.md" },
+      { "Settings" = "smartbeam/app/settings.md" },
+    ] },
+    { "Troubleshooting" = [
+      "smartbeam/troubleshooting/index.md",
+      { "Bluetooth and pairing" = "smartbeam/troubleshooting/bluetooth-and-pairing.md" },
+      { "Charging" = "smartbeam/troubleshooting/charging.md" },
+      { "Measurements" = "smartbeam/troubleshooting/measurements.md" },
+      { "Firmware updates" = "smartbeam/troubleshooting/firmware-updates.md" },
+      { "Reset" = "smartbeam/troubleshooting/reset.md" },
+    ] },
+  ] },
+  { "Support" = [
+    "support/index.md",
+    { "Warranty" = "support/warranty.md" },
+    { "Safety" = "support/safety.md" },
+    { "Contact" = "support/contact.md" },
+  ] },
+]
+
+[project.theme]
+language = "en"
+custom_dir = "overrides"
+# Official wordmark from the Curling Tools website.
+logo = "assets/images/shared/curling-tools-logo.png"
+# Add an approved favicon before enabling this path:
+# favicon = "assets/images/shared/favicon.png"
+features = [
+  "navigation.tabs",
+  "navigation.tabs.sticky",
+  "navigation.indexes",
+  "navigation.path",
+  "navigation.footer",
+  "navigation.top",
+  "toc.follow",
+  "search.highlight",
+]
+# Use system fonts without requesting a hosted font service.
+font = false
+
+# Always follow the browser preference, with no user-facing selector.
+# The automatic entry uses the light/dark entries below for its colors.
+[[project.theme.palette]]
+media = "(prefers-color-scheme)"
+
+# Temporary standard palette; change primary/accent here for approved branding.
+[[project.theme.palette]]
+media = "(prefers-color-scheme: light)"
+scheme = "default"
+primary = "blue"
+accent = "blue"
+
+[[project.theme.palette]]
+media = "(prefers-color-scheme: dark)"
+scheme = "slate"
+primary = "blue"
+accent = "blue"
+
+[project.extra]
+generator = false
+homepage = "https://www.curling.tools/"
+
+# Add approved social/contact destinations; no account URLs are assumed.
+# [[project.extra.social]]
+# icon = "lucide/mail"
+# link = "mailto:APPROVED_SUPPORT_ADDRESS"
+# name = "Contact Curling Tools"
+
+[project.markdown_extensions]
+attr_list = {}
+md_in_html = {}
+admonition = {}
+toc.permalink = true
+pymdownx.superfences = {}
+pymdownx.snippets.base_path = ["docs/_shared"]
+pymdownx.snippets.check_paths = true
+
+[project.validation.links]
+not_found = "warn"
+anchors = "warn"
+
+# Native exclusion support; no third-party plugin dependency is needed.
+[project.plugins.exclude]
+glob = ["_shared/**"]

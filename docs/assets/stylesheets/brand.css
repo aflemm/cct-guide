@@ -1,0 +1,78 @@
+/* Preserve the official wordmark colors and contrast on a dark background. */
+[data-md-color-scheme="slate"] .md-logo img {
+  background: white;
+  border-radius: 4px;
+  padding: 4px;
+  box-sizing: content-box;
+}
+
+/* The product chooser only. Product manuals retain the standard Zensical layout. */
+.guide-home {
+  --guide-accent: #247da0;
+  --guide-line: rgba(91, 113, 124, .2);
+  padding-bottom: 1rem;
+}
+.guide-home__intro { max-width: 42rem; margin: .6rem 0 2rem; }
+.md-typeset .guide-home__eyebrow,
+.md-typeset .guide-product__eyebrow {
+  font-size: .6rem;
+  font-weight: 700;
+  letter-spacing: .13em;
+  color: var(--guide-accent);
+}
+.md-typeset .guide-home h1.guide-home__eyebrow {
+  margin: 0 0 .75rem;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+.guide-home__intro > p:last-child {
+  max-width: 31rem;
+  font-size: .9rem;
+  line-height: 1.7;
+  color: var(--md-default-fg-color--light);
+}
+.guide-home__products { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.2rem; }
+.md-typeset a.guide-product {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  overflow: hidden;
+  border: 1px solid var(--guide-line);
+  border-radius: .8rem;
+  background: var(--md-default-bg-color);
+  color: var(--md-default-fg-color);
+  box-shadow: 0 4px 16px rgba(21, 49, 64, .04);
+  transition: border-color .18s, box-shadow .18s;
+}
+.md-typeset a.guide-product:hover {
+  border-color: var(--guide-accent);
+  box-shadow: 0 8px 24px rgba(21, 49, 64, .1);
+}
+.md-typeset a.guide-product:focus-visible { outline: 3px solid var(--guide-accent); outline-offset: 4px; }
+.guide-product__photo { aspect-ratio: 3 / 2; overflow: hidden; background: white; border-bottom: 1px solid var(--guide-line); }
+.md-typeset .guide-product__photo img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.md-typeset .guide-product--beam .guide-product__photo img { object-position: center 70%; }
+.guide-product__content { display: flex; flex: 1; flex-direction: column; padding: 1.2rem 1.4rem 1.4rem; }
+.md-typeset .guide-product__eyebrow { margin: 0 0 .4rem; }
+.md-typeset .guide-product h2 { margin: 0; font-size: 1.65rem; font-weight: 700; letter-spacing: -.035em; line-height: 1.2; }
+.md-typeset .guide-product__content > p:not(.guide-product__eyebrow) { margin: .55rem 0 1.3rem; font-size: .8rem; line-height: 1.65; color: var(--md-default-fg-color--light); }
+.guide-product__action { display: flex; justify-content: space-between; align-items: center; margin-top: auto; color: var(--guide-accent); font-size: .8rem; font-weight: 650; }
+.guide-product__action > span { display: grid; place-items: center; width: 1.8rem; height: 1.8rem; border: 1px solid var(--guide-line); border-radius: 50%; font-size: 1rem; }
+.guide-home__support { display: flex; justify-content: space-between; align-items: center; gap: 1rem; margin-top: 1.8rem; padding: 1.3rem 0; border-bottom: 1px solid var(--guide-line); }
+.md-typeset .guide-home__support h2 { margin: 0 0 .25rem; font-size: .9rem; font-weight: 650; }
+.md-typeset .guide-home__support p { margin: 0; font-size: .75rem; color: var(--md-default-fg-color--light); }
+.md-typeset a.guide-home__support-link { font-size: .8rem; font-weight: 650; white-space: nowrap; color: var(--guide-accent); }
+.guide-home__footnote { display: flex; align-items: start; justify-content: space-between; gap: 2rem; padding-top: .85rem; }
+.md-typeset .guide-home__footnote p { margin: 0; font-size: .65rem; color: var(--md-default-fg-color--light); }
+.guide-home__footnote p:first-child { max-width: 34rem; }
+.guide-home__footnote p:last-child { flex-shrink: 0; }
+[data-md-color-scheme="slate"] .guide-home { --guide-accent: #70c4e2; --guide-line: rgba(180, 204, 216, .22); }
+@media (max-width: 640px) {
+  .guide-home__intro { margin: .5rem 0 1.3rem; }
+  .guide-home__products { grid-template-columns: 1fr; gap: 1rem; }
+  .guide-product__content { padding: 1.1rem; }
+  .guide-home__support, .guide-home__footnote { flex-direction: column; gap: .75rem; align-items: start; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .md-typeset a.guide-product { transition: none; }
+}
