@@ -1,3 +1,7 @@
+---
+icon: lucide/battery-charging
+---
+
 # Charging
 
 SmartBeam troubleshooting documentation.

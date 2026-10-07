@@ -1,3 +1,7 @@
+---
+icon: lucide/bluetooth
+---
+
 # Bluetooth and pairing
 
 SmartBeam troubleshooting documentation.

@@ -10,44 +10,44 @@ extra_css = ["assets/stylesheets/brand.css"]
 nav = [
   { "Home" = "index.md" },
   { "SmartBroom" = [
-    "smartbroom/index.md",
     { "Getting started" = "smartbroom/getting-started.md" },
-    { "Connecting SmartBroom" = "smartbroom/connecting-smartbroom.md" },
-    { "Charging" = "smartbroom/charging.md" },
-    { "Using SmartBroom" = "smartbroom/using-smartbroom.md" },
-    { "LED indicators" = "smartbroom/led-indicators.md" },
-    { "Background recording" = "smartbroom/background-recording.md" },
-    { "Sessions" = "smartbroom/sessions.md" },
-    { "Charts" = "smartbroom/charts.md" },
-    { "Video" = "smartbroom/video.md" },
-    { "Settings" = "smartbroom/settings.md" },
-    { "Firmware updates" = "smartbroom/firmware-updates.md" },
-    { "Troubleshooting" = [
-      "smartbroom/troubleshooting/index.md",
-      { "Bluetooth and pairing" = "smartbroom/troubleshooting/bluetooth-and-pairing.md" },
-      { "Charging" = "smartbroom/troubleshooting/charging.md" },
-      { "Recording" = "smartbroom/troubleshooting/recording.md" },
-      { "Firmware updates" = "smartbroom/troubleshooting/firmware-updates.md" },
-      { "Reset" = "smartbroom/troubleshooting/reset.md" },
+    { "Details" = [
+      { "Connecting SmartBroom" = "smartbroom/connecting-smartbroom.md" },
+      { "Charging" = "smartbroom/charging.md" },
+      { "Using SmartBroom" = "smartbroom/using-smartbroom.md" },
+      { "LED indicators" = "smartbroom/led-indicators.md" },
+      { "Background recording" = "smartbroom/background-recording.md" },
+      { "Sessions" = "smartbroom/sessions.md" },
+      { "Charts" = "smartbroom/charts.md" },
+      { "Video" = "smartbroom/video.md" },
+      { "Settings" = "smartbroom/settings.md" },
+      { "Firmware updates" = "smartbroom/firmware-updates.md" },
+      { "Troubleshooting" = [
+        { "Overview" = "smartbroom/troubleshooting/index.md" },
+        { "Bluetooth and pairing" = "smartbroom/troubleshooting/bluetooth-and-pairing.md" },
+        { "Charging" = "smartbroom/troubleshooting/charging.md" },
+        { "Recording" = "smartbroom/troubleshooting/recording.md" },
+        { "Firmware updates" = "smartbroom/troubleshooting/firmware-updates.md" },
+        { "Reset" = "smartbroom/troubleshooting/reset.md" },
+      ] },
     ] },
   ] },
   { "SmartBeam" = [
-    "smartbeam/index.md",
     { "Getting started" = "smartbeam/getting-started.md" },
-    { "Connecting SmartBeam" = "smartbeam/connecting-smartbeam.md" },
-    { "Charging" = "smartbeam/charging.md" },
-    { "Using SmartBeam" = "smartbeam/using-smartbeam.md" },
-    { "LED indication" = "smartbeam/led-indication.md" },
-    { "Measurements" = "smartbeam/measurements.md" },
-    { "Settings" = "smartbeam/settings.md" },
-    { "Firmware updates" = "smartbeam/firmware-updates.md" },
-    { "Troubleshooting" = [
-      "smartbeam/troubleshooting/index.md",
-      { "Bluetooth and pairing" = "smartbeam/troubleshooting/bluetooth-and-pairing.md" },
-      { "Charging" = "smartbeam/troubleshooting/charging.md" },
-      { "Measurements" = "smartbeam/troubleshooting/measurements.md" },
-      { "Firmware updates" = "smartbeam/troubleshooting/firmware-updates.md" },
-      { "Reset" = "smartbeam/troubleshooting/reset.md" },
+    { "Essentials" = [
+      { "SmartBeam App" = "smartbeam/smartbeam-app.md" },
+      { "Connecting" = "smartbeam/connecting-smartbeam.md" },
+      { "Setting up Beams" = "smartbeam/setting-up-beams.md" },
+      { "Arming and Timing" = "smartbeam/arming-and-timing.md" },
+      { "Understanding Results" = "smartbeam/understanding-results.md" },
+      { "Charging" = "smartbeam/charging.md" },
+    ] },
+    { "Beyond" = [
+      { "History and Data" = "smartbeam/history-and-data.md" },
+      { "Saved Devices" = "smartbeam/saved-devices.md" },
+      { "LED Indication" = "smartbeam/led-indication.md" },
+      { "Settings" = "smartbeam/settings.md" },
+      { "Firmware Updates" = "smartbeam/firmware-updates.md" },
     ] },
   ] },
   { "Contact" = "contact.md" },
@@ -63,11 +63,12 @@ logo = "assets/images/shared/curling-tools-logo.png"
 features = [
   "navigation.tabs",
   "navigation.tabs.sticky",
-  "navigation.indexes",
+  "navigation.sections",
   "navigation.path",
   "navigation.footer",
   "toc.follow",
   "search.highlight",
+  "content.tabs.link",
 ]
 # Use system fonts without requesting a hosted font service.
 font = false
@@ -106,6 +107,7 @@ md_in_html = {}
 admonition = {}
 toc.permalink = true
 pymdownx.superfences = {}
+pymdownx.tabbed.alternate_style = true
 pymdownx.snippets.base_path = ["docs/_shared"]
 pymdownx.snippets.check_paths = true
 

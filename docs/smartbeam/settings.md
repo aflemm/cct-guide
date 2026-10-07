@@ -1,3 +1,7 @@
+---
+icon: lucide/settings
+---
+
 # Settings
 
 SmartBeam documentation.
@@ -12,4 +16,4 @@ SmartBeam documentation.
 
 > TODO: Add verified instructions and screenshots for this topic.
 
-[Back to SmartBeam](index.md)
+[Back to SmartBeam](getting-started.md)

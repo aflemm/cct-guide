@@ -1,0 +1,10 @@
+{# Sitewide help links, including pages that hide previous/next navigation. #}
+<div class="guide-site-footer">
+  <nav class="guide-site-footer__links" aria-label="Curling Tools links">
+    <a href="https://www.curling.tools/">Back to curling.tools <span aria-hidden="true">↗</span></a>
+    <span>Need more help? <a href="{{ 'contact/' | url }}">Contact us</a></span>
+  </nav>
+  {% if config.copyright %}
+    <div class="md-copyright">{{ config.copyright }}</div>
+  {% endif %}
+</div>

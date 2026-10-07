@@ -1,3 +1,7 @@
+---
+icon: lucide/rocket
+---
+
 # Getting started
 
 Get started with SmartBroom and its companion app.
@@ -25,5 +29,3 @@ Get started with SmartBroom and its companion app.
 > TODO: Add verified instructions and screenshots for this topic.
 
 [Connect SmartBroom](connecting-smartbroom.md)
-
-[Back to SmartBroom](index.md)

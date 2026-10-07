@@ -1,3 +1,7 @@
+---
+icon: lucide/ruler
+---
+
 # Measurements
 
 SmartBeam troubleshooting documentation.

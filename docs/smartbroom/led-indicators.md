@@ -1,3 +1,7 @@
+---
+icon: lucide/lightbulb
+---
+
 # SmartBroom 4 LED indicators
 
 SmartBroom 4 has four LEDs beneath its translucent housing. They indicate battery, connection, data collection, and fault states.

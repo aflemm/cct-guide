@@ -1,3 +1,7 @@
+---
+icon: lucide/circle-help
+---
+
 # SmartBroom troubleshooting
 
 Find troubleshooting topics for SmartBroom below.
@@ -16,4 +20,4 @@ Find troubleshooting topics for SmartBroom below.
 - [Firmware updates](firmware-updates.md)
 - [Reset](reset.md)
 
-[Back to SmartBroom](../index.md)
+[Back to SmartBroom](../getting-started.md)

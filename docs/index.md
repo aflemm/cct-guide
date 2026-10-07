@@ -16,7 +16,7 @@ hide:
 
 <div class="guide-home__products">
 
-<a class="guide-product" href="smartbroom/" aria-labelledby="smartbroom-title">
+<a class="guide-product" href="smartbroom/getting-started/" aria-labelledby="smartbroom-title">
   <div class="guide-product__photo">
     <img src="assets/images/smartbroom/smartbroom-4.jpg" alt="SmartBroom 4 broom head with a yellow pad and translucent sensor housing" width="1000" height="750" fetchpriority="high">
   </div>
@@ -27,7 +27,7 @@ hide:
   </div>
 </a>
 
-<a class="guide-product guide-product--beam" href="smartbeam/" aria-labelledby="smartbeam-title">
+<a class="guide-product guide-product--beam" href="smartbeam/getting-started/" aria-labelledby="smartbeam-title">
   <div class="guide-product__photo">
     <img src="assets/images/smartbeam/smartbeam-colours.jpg" alt="Four SmartBeam units in blue, red, green, and yellow" width="1000" height="1000">
   </div>

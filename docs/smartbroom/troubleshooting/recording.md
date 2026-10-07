@@ -1,3 +1,7 @@
+---
+icon: lucide/activity
+---
+
 # Recording
 
 SmartBroom troubleshooting documentation.

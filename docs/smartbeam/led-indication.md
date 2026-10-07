@@ -1,4 +1,8 @@
-# SmartBeam LED indication
+---
+icon: lucide/lightbulb
+---
+
+# LED Indication
 
 SmartBeam uses separate LEDs for the beam itself, battery charging, and the timing system state.
 
@@ -65,7 +69,7 @@ The LEDs at the ends of the top light-bar indicate the following states.
 
 ## Related topics
 
-- [Using SmartBeam](using-smartbeam.md)
+- [Arming and Timing](arming-and-timing.md)
 - [Charging](charging.md)
-- [Connecting SmartBeam](connecting-smartbeam.md)
+- [Connecting](connecting-smartbeam.md)
 

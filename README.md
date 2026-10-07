@@ -19,7 +19,8 @@ docs/
     connecting-smartbroom.md, sessions.md, charts.md, video.md, settings.md
     troubleshooting/           SmartBroom troubleshooting
   smartbeam/                   Unified product manual and landing page
-    connecting-smartbeam.md, measurements.md, settings.md
+    connecting-smartbeam.md, setting-up-beams.md, arming-and-timing.md,
+    understanding-results.md, history-and-data.md, settings.md
     troubleshooting/           SmartBeam troubleshooting
   contact.md                   Contact details and troubleshooting links
   assets/images/
@@ -95,7 +96,7 @@ warranty terms, safety notices, or contact details. Remove the shared
 
 ### Add a product
 
-Create `docs/newproduct/index.md` and task pages such as `getting-started.md`,
+Create `docs/newproduct/getting-started.md` and task pages such as
 `connecting-newproduct.md`, `measurements.md`, and `settings.md` directly within
 the product directory. Add a `troubleshooting/` subdirectory with its own
 `index.md`. Keep hardware and app workflows together in the product navigation.

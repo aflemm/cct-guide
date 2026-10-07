@@ -1,3 +1,7 @@
+---
+icon: lucide/battery-charging
+---
+
 # Charging
 
 SmartBroom troubleshooting documentation.

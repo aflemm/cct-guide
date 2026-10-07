@@ -1,3 +1,7 @@
+---
+icon: lucide/list-checks
+---
+
 # Sessions
 
 SmartBroom documentation.
@@ -12,4 +16,4 @@ SmartBroom documentation.
 
 > TODO: Add verified instructions and screenshots for this topic.
 
-[Back to SmartBroom](index.md)
+[Back to SmartBroom](getting-started.md)

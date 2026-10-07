@@ -1,3 +1,7 @@
+---
+icon: lucide/download
+---
+
 # Firmware updates
 
 SmartBroom documentation.
@@ -14,4 +18,4 @@ SmartBroom documentation.
 
 <!-- Image placement example: ![Describe the relevant hardware detail](../assets/images/smartbroom/firmware-updates.webp) -->
 
-[Back to SmartBroom](index.md)
+[Back to SmartBroom](getting-started.md)

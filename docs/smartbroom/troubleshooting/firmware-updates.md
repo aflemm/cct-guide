@@ -1,3 +1,7 @@
+---
+icon: lucide/download
+---
+
 # Firmware updates
 
 SmartBroom troubleshooting documentation.

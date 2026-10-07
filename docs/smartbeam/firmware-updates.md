@@ -1,4 +1,8 @@
-# Firmware updates
+---
+icon: lucide/download
+---
+
+# Firmware Updates
 
 SmartBeam documentation.
 
@@ -14,4 +18,4 @@ SmartBeam documentation.
 
 <!-- Image placement example: ![Describe the relevant hardware detail](../assets/images/smartbeam/firmware-updates.webp) -->
 
-[Back to SmartBeam](index.md)
+[Back to SmartBeam](getting-started.md)

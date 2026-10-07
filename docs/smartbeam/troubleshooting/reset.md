@@ -1,3 +1,7 @@
+---
+icon: lucide/rotate-ccw
+---
+
 # Reset
 
 SmartBeam troubleshooting documentation.

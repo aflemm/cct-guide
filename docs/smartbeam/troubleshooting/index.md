@@ -1,3 +1,7 @@
+---
+icon: lucide/circle-help
+---
+
 # SmartBeam troubleshooting
 
 Find troubleshooting topics for SmartBeam below.
@@ -16,4 +20,4 @@ Find troubleshooting topics for SmartBeam below.
 - [Firmware updates](firmware-updates.md)
 - [Reset](reset.md)
 
-[Back to SmartBeam](../index.md)
+[Back to SmartBeam](../getting-started.md)

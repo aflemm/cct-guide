@@ -1,3 +1,7 @@
+---
+icon: lucide/battery-charging
+---
+
 # Charging
 
 SmartBeam documentation.
@@ -14,4 +18,4 @@ SmartBeam documentation.
 
 <!-- Image placement example: ![Describe the relevant hardware detail](../assets/images/smartbeam/charging.webp) -->
 
-[Back to SmartBeam](index.md)
+[Back to SmartBeam](getting-started.md)
