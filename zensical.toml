@@ -43,11 +43,13 @@ nav = [
       { "Charging" = "smartbeam/charging.md" },
     ] },
     { "Beyond" = [
+      { "Beam Alignment" = "smartbeam/beam-alignment.md" },
       { "History and Data" = "smartbeam/history-and-data.md" },
       { "Saved Devices" = "smartbeam/saved-devices.md" },
       { "LED Indication" = "smartbeam/led-indication.md" },
       { "Settings" = "smartbeam/settings.md" },
       { "Firmware Updates" = "smartbeam/firmware-updates.md" },
+      { "RockArm" = "smartbeam/rockarm.md" },
     ] },
   ] },
   { "Contact" = "contact.md" },

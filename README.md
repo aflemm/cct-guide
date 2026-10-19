@@ -126,10 +126,12 @@ instructions in the surrounding prose as well; do not rely only on color.
 Hardware placeholder pages contain commented image placement examples, so no
 missing or fake imagery is displayed. `.gitkeep` files preserve empty folders.
 
-The homepage product photographs were downloaded from the official website:
+These product photographs were downloaded from the official website:
 
 - `smartbroom/smartbroom-4.jpg`: <https://curling.tools/cdn/shop/files/smartbroom-4-three-quarters.jpg?v=1789582760&width=1000>
 - `smartbeam/smartbeam-colours.jpg`: <https://curling.tools/cdn/shop/files/4-Colours_square.jpg?v=1773235161&width=1000>
+- `smartbeam/rockarm.png`: <https://curling.tools/cdn/shop/files/rock-arm.png?v=1783628995&width=1000>
+- `smartbeam/beam-height-adjustment.jpg`: <https://cdn.shopify.com/s/files/1/0679/4687/3014/files/smartbeam-height-adjustment.jpg?v=1790288051&width=1200> — from [Adjusting SmartBeam Laser Angle](https://curling.tools/blogs/support-articles/adjusting-smartbeam-laser-angle).
 
 These are local assets, not hotlinked. Keep source URLs here when replacing them.
 

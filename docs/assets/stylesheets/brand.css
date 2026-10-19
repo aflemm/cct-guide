@@ -37,6 +37,33 @@
 }
 .guide-wireframe span { font-size: .7rem; }
 
+/* Keep LED names readable while showing their physical colours beside them. */
+.led-colour {
+  display: inline-flex;
+  align-items: baseline;
+  gap: .3em;
+  white-space: nowrap;
+  font-weight: 700;
+}
+.led-colour::before {
+  content: "";
+  display: inline-block;
+  flex: none;
+  width: .7em;
+  height: .7em;
+  border: 1px solid #77818c;
+  border-radius: 50%;
+  background: var(--led-colour);
+}
+.led-colour[data-led-colour="white"] { --led-colour: #fff; }
+.led-colour[data-led-colour="orange"] { --led-colour: #ff9500; }
+.led-colour[data-led-colour="yellow"] { --led-colour: #ffcc00; }
+.led-colour[data-led-colour="blue"] { --led-colour: #007aff; }
+.led-colour[data-led-colour="purple"] { --led-colour: #af52de; }
+.led-colour[data-led-colour="teal"] { --led-colour: #30b0c7; }
+.led-colour[data-led-colour="red"] { --led-colour: #ff3b30; }
+.led-colour[data-led-colour="green"] { --led-colour: #34c759; }
+
 .guide-home {
   --guide-accent: #247da0;
   --guide-line: rgba(91, 113, 124, .2);

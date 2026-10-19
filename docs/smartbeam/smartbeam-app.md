@@ -18,7 +18,7 @@ The SmartBeam app is free and connects to your SmartBeams to display split times
 
     The Android app is available through the Play Store beta program. Email us to request access.
 
-    [Request Android beta access](mailto:smartbeam-android@smartbroom.ca){ .md-button }
+    [Request Android beta access](mailto:smartbeam-android@smartbroom.ca){ .md-button .md-button--primary }
 
 ## Find your way around
 
@@ -30,12 +30,6 @@ The iPhone app has four tabs:
 | **History** | Review saved rocks and filter them by date. |
 | **Settings** | Manage devices, change timing preferences, and find firmware updates and data tools. |
 | **About** | Find the user guide, contact information, and announcements. |
-
-<!-- Add an annotated screenshot showing the four tabs. -->
-
-### The timing screen
-
-> TODO: Add an annotated screenshot explaining the sheet diagram, beam setup controls, results, and arming controls.
 
 ## Next step
 
