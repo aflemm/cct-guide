@@ -4,7 +4,7 @@ icon: lucide/rocket
 
 # Getting Started
 
-Follow these steps to get your SmartBeams ready and time your first rock.
+Read [Laser Safety](laser-safety.md) before switching on your SmartBeams, then follow these steps to time your first rock.
 
 ## 1. Get the app
 

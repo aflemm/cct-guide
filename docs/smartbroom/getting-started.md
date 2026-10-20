@@ -8,7 +8,7 @@ Use this product guide with **SmartBroom 4** and the SmartBroom app on iPhone or
 
 ## 1. Get ready
 
-[Get the SmartBroom app](smartbroom-app.md) and [charge your broom](charging.md).
+[Get the SmartBroom app](smartbroom-app.md) and [charge your broom](charging.md). Check [Competition Compliance](../broom-basics/competition-compliance.md) before competition, and see [Replacing Sleeves](../broom-basics/replacing-sleeves.md) when your fabric needs changing.
 
 ## 2. Connect your broom
 

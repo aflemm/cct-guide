@@ -5,12 +5,20 @@ site_url = "https://aflemm.github.io/cct-guide/"
 site_description = "Product guides for Curling Tools products."
 docs_dir = "docs"
 site_dir = "site"
+draft_docs = """
+*.draft.md
+/drafts/
+"""
 use_directory_urls = true
 extra_css = ["assets/stylesheets/brand.css"]
 nav = [
   { "Home" = "index.md" },
   { "SmartBroom" = [
     { "Getting Started" = "smartbroom/getting-started.md" },
+    { "Broom Basics" = [
+      { "Competition Compliance" = "broom-basics/competition-compliance.md" },
+      { "Replacing Sleeves" = "broom-basics/replacing-sleeves.md" },
+    ] },
     { "Essentials" = [
       { "SmartBroom App" = "smartbroom/smartbroom-app.md" },
       { "Charging" = "smartbroom/charging.md" },
@@ -31,6 +39,7 @@ nav = [
   ] },
   { "SmartBeam" = [
     { "Getting Started" = "smartbeam/getting-started.md" },
+    { "Laser Safety" = "smartbeam/laser-safety.md" },
     { "Essentials" = [
       { "SmartBeam App" = "smartbeam/smartbeam-app.md" },
       { "Charging" = "smartbeam/charging.md" },
