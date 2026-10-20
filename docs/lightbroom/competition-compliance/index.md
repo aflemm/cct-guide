@@ -6,4 +6,4 @@ icon: lucide/info
 
 **LightBroom is not World Curling certified for the 2026/27 season.** It was released after the certification cutoff date for that season, even though it fully complies with all World Curling equipment requirements.
 
-Compliance with the requirements does not confer certification. LightBroom cannot be used at the Brier or Scotties *this year* 😢.
+LightBroom cannot be used at the Brier or Scotties *this year* 😢.

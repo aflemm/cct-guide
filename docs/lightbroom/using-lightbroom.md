@@ -12,7 +12,7 @@ Turn it on, watch the light flow with gravity, then sweep to make it sparkle.
 
 ## Let the light flow
 
-**Tilt the broom head.** The light flows with gravity toward the lower side of the head. Change the angle to move the light around the broom.
+**Tilt the broom head.** The light flows with gravity, floating to the high side of the broom head. Change the angle to move the light around the broom.
 
 ## Sweep to sparkle
 
@@ -24,7 +24,7 @@ Choose rainbow for multicoloured lighting, or pick a single colour. See [Choosin
 
 ## Turn it off
 
-**Hold the button for about 1.5 seconds.** Two red lights briefly indicate shutdown. If you have just been choosing a colour, let the selection display close before holding the button.
+**Hold the button for about 1.5 seconds.** Two red lights briefly indicate shutdown.
 
 LightBroom also switches off after about **one minute of inactivity**. Shake it to wake it after automatic shutoff. If you switched it off with the button, or the battery is below **10%**, use the button to turn it on instead.
 
