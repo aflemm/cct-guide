@@ -1,5 +1,5 @@
 ---
-icon: lucide/smartphone
+icon: lucide/book-open
 ---
 
 # RockArm

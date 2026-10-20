@@ -1,5 +1,5 @@
 ---
-icon: lucide/lightbulb
+icon: lucide/book-open
 ---
 
 # LightBroom
