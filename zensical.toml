@@ -13,6 +13,7 @@ extra_css = ["assets/stylesheets/brand.css"]
 nav = [
   { "Home" = "index.md" },
   { "SmartBroom" = [
+    { "Overview" = "smartbroom/index.md" },
     { "Getting Started" = "smartbroom/getting-started.md" },
     { "Broom Basics" = [
       { "Competition Use" = [
@@ -41,6 +42,7 @@ nav = [
     ] },
   ] },
   { "SmartBeam" = [
+    { "Overview" = "smartbeam/index.md" },
     { "Getting Started" = "smartbeam/getting-started.md" },
     { "Laser Safety" = "smartbeam/laser-safety.md" },
     { "Essentials" = [
