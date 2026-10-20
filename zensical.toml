@@ -1,7 +1,6 @@
 [project]
 site_name = "Curling Tools Product Guides"
-# Temporary sharing URL; restore https://guide.curling.tools/ when the domain is connected.
-site_url = "https://aflemm.github.io/cct-guide/"
+site_url = "https://docs.curling.tools/"
 site_description = "Product guides for Curling Tools products."
 docs_dir = "docs"
 site_dir = "site"

@@ -3,7 +3,7 @@
 Product guides for SmartBroom 4 and SmartBeam, built with
 [Zensical](https://zensical.org/docs/).
 
-[Read the product guides](https://aflemm.github.io/cct-guide/) ·
+[Read the product guides](https://docs.curling.tools/) ·
 [Visit Curling Tools](https://curling.tools/) ·
 [Contact support](https://curling.tools/pages/contact)
 
@@ -18,7 +18,7 @@ python -m pip install -r requirements.txt
 zensical serve
 ```
 
-Open <http://127.0.0.1:8000/cct-guide/>. The preview reloads when source files
+Open <http://127.0.0.1:8000/>. The preview reloads when source files
 change. Stop it with Ctrl-C.
 
 Build the static site with:
@@ -37,6 +37,7 @@ site settings are in `zensical.toml`. Shared broom care and competition pages
 live under `docs/broom-basics/` so product guides can reference the same content.
 
 - Publish verified instructions and use the app's exact control labels.
+- Keep product instructions in these guides and link to the relevant guide pages rather than legacy support articles.
 - Keep Getting Started concise and link to focused task pages for detail.
 - Use one H1 per page and descriptive H2/H3 headings.
 - Add published pages to `project.nav` and use relative Markdown links.
@@ -50,7 +51,7 @@ live under `docs/broom-basics/` so product guides can reference the same content
 Name an unfinished page `*.draft.md`, or place it under `docs/drafts/`.
 
 `zensical serve` includes drafts with a DRAFT notice. Open them by URL, such as
-`/cct-guide/smartbeam/new-topic.draft/`; they are not added to the sidebar
+`/smartbeam/new-topic.draft/`; they are not added to the sidebar
 automatically. `zensical build` excludes drafts from HTML output, search, and
 the sitemap.
 
