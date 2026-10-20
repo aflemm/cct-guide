@@ -6,17 +6,17 @@ icon: lucide/rocket
 
 Read [Laser Safety](laser-safety.md) before switching on your SmartBeams, then follow these steps to time your first rock.
 
-## 1. Get the app
+## 1. Get ready
 
-Start with the [SmartBeam App](smartbeam-app.md) page to get the app for your phone and find your way around.
+Read [System Overview](system-overview.md), [get the SmartBeam app](smartbeam-app.md), and [charge your beams](charging.md).
 
-## 2. Get your SmartBeams ready
+## 2. Set up your beams
 
-[Charge your SmartBeams](charging.md), then [connect them to the app](connecting-smartbeam.md).
+Follow [Setting up Beams](setting-up-beams/index.md) to choose your measurement locations and place and align the sensors and reflectors on the ice.
 
-## 3. Set up your beams
+## 3. Connect your beams
 
-Follow [Setting up Beams](setting-up-beams/index.md) to match your setup on the sheet with the setup in the app.
+[Connect your SmartBeams](connecting-smartbeam.md), then [assign their locations in the app](setting-up-beams/managing-beams-in-the-app.md) to match your setup on the ice.
 
 ## 4. Time your first rock
 

@@ -41,6 +41,7 @@ nav = [
     { "Getting Started" = "smartbeam/getting-started.md" },
     { "Laser Safety" = "smartbeam/laser-safety.md" },
     { "Essentials" = [
+      { "System Overview" = "smartbeam/system-overview.md" },
       { "SmartBeam App" = "smartbeam/smartbeam-app.md" },
       { "Charging" = "smartbeam/charging.md" },
       { "Connecting" = "smartbeam/connecting-smartbeam.md" },
