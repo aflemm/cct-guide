@@ -10,8 +10,7 @@ SmartBeam has a rechargeable lithium-polymer battery and charges through its **U
 
 1. Connect a USB-C cable to the port on the side of the SmartBeam.
 2. Connect the other end to a powered **5 V USB supply**.
-3. Check the charging light directly above the USB port. It glows <span class="led-colour" data-led-colour="orange">orange</span> while charging.
-4. When the light turns <span class="led-colour" data-led-colour="green">green</span>, charging is complete and you can unplug the cable.
+3. Check the charging light directly above the USB port using the table below. Unplug the cable when charging is complete.
 
 You can charge SmartBeam while it is switched off. The charging light stays illuminated while USB power is present, even when the laser and system-state lights are off.
 

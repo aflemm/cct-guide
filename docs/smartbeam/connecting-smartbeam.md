@@ -8,7 +8,7 @@ Connect your SmartBeams to the SmartBeam app using its Bluetooth scanner.
 
 ## Before you start
 
-Turn on your SmartBeams and enable Bluetooth on your phone. Allow the app to use Bluetooth when prompted.
+Turn on your SmartBeams and enable Bluetooth on your phone.
 
 === "iPhone"
 
@@ -57,4 +57,4 @@ Open the scanner and tap **Disconnect** beside a connected unit. This leaves the
 
 ## Next step
 
-Once your units are connected, follow [Setting up Beams](setting-up-beams.md) to assign them to locations on the sheet.
+Once your units are connected, follow [Setting up Beams](setting-up-beams/index.md) to assign them to locations on the sheet.

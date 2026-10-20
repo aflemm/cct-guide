@@ -2,30 +2,25 @@
 icon: lucide/rocket
 ---
 
-# Getting started
+# Getting Started
 
-Get started with SmartBroom and its companion app.
+Use this product guide with **SmartBroom 4** and the SmartBroom app on iPhone or iPad.
 
---8<-- "documentation-status.md"
+## 1. Get ready
 
-## Overview
+[Get the SmartBroom app](smartbroom-app.md) and [charge your broom](charging.md).
 
-> TODO: Document getting started for SmartBroom.
+## 2. Connect your broom
 
-## Instructions
+Follow [Connecting](connecting-smartbroom.md) to find your SmartBroom and open its controls.
 
-> TODO: Add the approved SmartBroom procedure and relevant illustrations.
+## 3. Choose how to collect data
 
-<!-- Image placement example: ![Describe the relevant hardware detail](../assets/images/smartbroom/getting-started.webp) -->
+- **See your sweeps as they happen:** follow [Live Sweeping](using-smartbroom.md).
+- **Sweep without keeping a phone connected:** set up [Background Recording](background-recording.md), including claiming the broom for saved-data access.
 
-## Set up the SmartBroom app
+## 4. Review your sweeping
 
-### Overview
+Read [Understanding Results](understanding-results.md), then use [Sessions and Downloads](sessions.md) to find saved sweeps.
 
-> TODO: Document getting started for SmartBroom app.
-
-### Instructions
-
-> TODO: Add verified instructions and screenshots for this topic.
-
-[Connect SmartBroom](connecting-smartbroom.md)
+For coaching with more than one broom, see [Multiple Windows on iPad](ipad-windows.md).

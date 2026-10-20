@@ -2,7 +2,7 @@
 icon: lucide/rocket
 ---
 
-# Getting started
+# Getting Started
 
 Follow these steps to get your SmartBeams ready and time your first rock.
 
@@ -16,11 +16,11 @@ Start with the [SmartBeam App](smartbeam-app.md) page to get the app for your ph
 
 ## 3. Set up your beams
 
-Follow [Setting up Beams](setting-up-beams.md) to match your setup on the sheet with the setup in the app.
+Follow [Setting up Beams](setting-up-beams/index.md) to match your setup on the sheet with the setup in the app.
 
 ## 4. Time your first rock
 
-Follow [Arming and Timing](arming-and-timing.md) to start a timing sequence.
+Follow [Arming and Timing](arming-and-timing/index.md) to start a timing sequence.
 
 ## 5. Read your results
 

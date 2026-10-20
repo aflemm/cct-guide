@@ -4,18 +4,23 @@ icon: lucide/battery-charging
 
 # Charging
 
-SmartBroom documentation.
+Charge SmartBroom 4 using its **USB-C port** and a standard USB power supply. The app also shows the battery percentage on the connected-broom screen.
 
---8<-- "documentation-status.md"
+## Read the charging light
 
-## Overview
+The dedicated battery LED is beside the USB port. While connected to power, it gently breathes to show charging progress:
 
-> TODO: Document charging for SmartBroom.
+| Battery level | Battery LED |
+| --- | --- |
+| Below 20% | Breathing <span class="led-colour" data-led-colour="red">red</span> |
+| 20–80% | Breathing <span class="led-colour" data-led-colour="orange">orange</span> |
+| Above 80%, still charging | Breathing <span class="led-colour" data-led-colour="green">green</span> |
+| Fully charged | Solid <span class="led-colour" data-led-colour="green">green</span> |
 
-## Instructions
+## Check before sweeping
 
-> TODO: Add the approved SmartBroom procedure and relevant illustrations.
+When switched on without USB power, the battery LED briefly shows the charge level: <span class="led-colour" data-led-colour="green">green</span> at 50% or above, <span class="led-colour" data-led-colour="orange">orange</span> at 20–49%, and <span class="led-colour" data-led-colour="red">red</span> below 20%.
 
-<!-- Image placement example: ![Describe the relevant hardware detail](../assets/images/smartbroom/charging.webp) -->
+Below **5%**, it flashes <span class="led-colour" data-led-colour="red">red</span> continuously. Recharge before collecting more data.
 
-[Back to SmartBroom](getting-started.md)
+The two system-state LEDs beside the load bar show connection and recording state separately. See [LED Indication](led-indicators.md) and [Background Recording](background-recording.md) to check that the broom is ready to record.

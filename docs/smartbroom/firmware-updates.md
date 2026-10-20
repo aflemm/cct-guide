@@ -2,20 +2,20 @@
 icon: lucide/download
 ---
 
-# Firmware updates
+# Firmware Updates
 
-SmartBroom documentation.
+The SmartBroom app checks for compatible firmware when your broom connects. You can also tap the connected broom's name to open its details, then choose **Check for Updates**.
 
---8<-- "documentation-status.md"
+## Install an update
 
-## Overview
+1. Finish and save any live sweep. Charge the broom if needed; updates require at least **10% battery**.
+2. Connect the broom and open the available update. Read its release notes.
+3. Tap **Update SmartBroom**. Keep the app open, the broom powered on, and the phone or iPad close to it.
+4. Wait while the app downloads, verifies, and transfers the update. Transfer progress is shown in the app.
+5. The broom restarts after installation and the app returns to the SmartBroom list. **Reconnect to confirm the update.**
 
-> TODO: Document firmware updates for SmartBroom.
+## If the update does not finish
 
-## Instructions
+Read the message shown by the app. Check the broom's charge and connection, then use **Try Update Again** when offered. An update being transferred is not yet confirmation that the new version is running; let the broom restart and reconnect for verification.
 
-> TODO: Add the approved SmartBroom procedure and relevant illustrations.
-
-<!-- Image placement example: ![Describe the relevant hardware detail](../assets/images/smartbroom/firmware-updates.webp) -->
-
-[Back to SmartBroom](getting-started.md)
+For a persistent problem, [contact Curling Tools](../contact.md) with the broom's serial number and the message shown in the app.

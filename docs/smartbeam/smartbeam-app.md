@@ -29,8 +29,8 @@ The iPhone app has four tabs:
 | **SmartBeam** | Set up beam locations and throwing direction, arm the system, and see live timing results. |
 | **History** | Review saved rocks and filter them by date. |
 | **Settings** | Manage devices, change timing preferences, and find firmware updates and data tools. |
-| **About** | Find the user guide, contact information, and announcements. |
+| **About** | Find the product guide, contact information, and announcements. |
 
 ## Next step
 
-Once the app is installed, [connect your SmartBeams](connecting-smartbeam.md) or follow [Getting started](getting-started.md).
+Once the app is installed, [connect your SmartBeams](connecting-smartbeam.md) or follow [Getting Started](getting-started.md).

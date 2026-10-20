@@ -12,7 +12,7 @@ Prefer to send a message through the website? The Curling Tools contact form inc
 
 [Open the contact form on curling.tools](https://curling.tools/pages/contact){ .md-button }
 
-## Product troubleshooting
+## Product guides
 
-- [SmartBroom troubleshooting](smartbroom/troubleshooting/index.md)
-- [SmartBeam troubleshooting](smartbeam/troubleshooting/index.md)
+- [SmartBroom 4 product guide](smartbroom/getting-started.md)
+- [SmartBeam product guide](smartbeam/getting-started.md)

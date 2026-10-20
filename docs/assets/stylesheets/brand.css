@@ -19,24 +19,6 @@
   box-sizing: content-box;
 }
 
-/* The product chooser only. Product manuals retain the standard Zensical layout. */
-.guide-wireframe {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: .5rem;
-  min-height: 10rem;
-  margin: 1.2rem 0;
-  padding: 1.5rem;
-  border: 1px dashed var(--md-default-fg-color--lighter);
-  border-radius: .5rem;
-  background: var(--md-default-fg-color--lightest);
-  color: var(--md-default-fg-color--light);
-  text-align: center;
-}
-.guide-wireframe span { font-size: .7rem; }
-
 /* Keep LED names readable while showing their physical colours beside them. */
 .led-colour {
   display: inline-flex;
@@ -64,6 +46,7 @@
 .led-colour[data-led-colour="red"] { --led-colour: #ff3b30; }
 .led-colour[data-led-colour="green"] { --led-colour: #34c759; }
 
+/* The product chooser only. Product guides retain the standard Zensical layout. */
 .guide-home {
   --guide-accent: #247da0;
   --guide-line: rgba(91, 113, 124, .2);
@@ -81,12 +64,6 @@
   margin: 0 0 .75rem;
   line-height: 1.5;
   text-transform: uppercase;
-}
-.guide-home__intro > p:last-child {
-  max-width: 31rem;
-  font-size: .9rem;
-  line-height: 1.7;
-  color: var(--md-default-fg-color--light);
 }
 .guide-home__products { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.2rem; }
 .md-typeset a.guide-product {
@@ -118,16 +95,12 @@
 .md-typeset .guide-home__support h2 { margin: 0 0 .25rem; font-size: .9rem; font-weight: 650; }
 .md-typeset .guide-home__support p { margin: 0; font-size: .75rem; color: var(--md-default-fg-color--light); }
 .md-typeset a.guide-home__support-link { font-size: .8rem; font-weight: 650; white-space: nowrap; color: var(--guide-accent); }
-.guide-home__footnote { display: flex; align-items: start; justify-content: space-between; gap: 2rem; padding-top: .85rem; }
-.md-typeset .guide-home__footnote p { margin: 0; font-size: .65rem; color: var(--md-default-fg-color--light); }
-.guide-home__footnote p:first-child { max-width: 34rem; }
-.guide-home__footnote p:last-child { flex-shrink: 0; }
 [data-md-color-scheme="slate"] .guide-home { --guide-accent: #70c4e2; --guide-line: rgba(180, 204, 216, .22); }
 @media (max-width: 640px) {
   .guide-home__intro { margin: .5rem 0 1.3rem; }
   .guide-home__products { grid-template-columns: 1fr; gap: 1rem; }
   .guide-product__content { padding: 1.1rem; }
-  .guide-home__support, .guide-home__footnote { flex-direction: column; gap: .75rem; align-items: start; }
+  .guide-home__support { flex-direction: column; gap: .75rem; align-items: start; }
 }
 @media (prefers-reduced-motion: reduce) {
   .md-typeset a.guide-product { transition: none; }

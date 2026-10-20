@@ -10,7 +10,7 @@ hide:
 
 <div class="guide-home__intro" markdown>
 
-# Curling Tools User Guides { .guide-home__eyebrow }
+# Curling Tools Product Guides { .guide-home__eyebrow }
 
 </div>
 
@@ -23,7 +23,7 @@ hide:
   <div class="guide-product__content">
     <p class="guide-product__eyebrow">PRODUCT GUIDE</p>
     <h2 id="smartbroom-title">SmartBroom 4</h2>
-    <span class="guide-product__action">Explore the guide <span aria-hidden="true">→</span></span>
+    <span class="guide-product__action">Explore the product guide <span aria-hidden="true">→</span></span>
   </div>
 </a>
 
@@ -34,7 +34,7 @@ hide:
   <div class="guide-product__content">
     <p class="guide-product__eyebrow">PRODUCT GUIDE</p>
     <h2 id="smartbeam-title">SmartBeam</h2>
-    <span class="guide-product__action">Explore the guide <span aria-hidden="true">→</span></span>
+    <span class="guide-product__action">Explore the product guide <span aria-hidden="true">→</span></span>
   </div>
 </a>
 
@@ -51,14 +51,6 @@ Get in touch with Curling Tools for questions and technical support.
 </div>
 
 [Contact us →](contact.md){ .guide-home__support-link }
-
-</div>
-
-<div class="guide-home__footnote" markdown>
-
-**A work in progress.** These guides currently contain placeholders. Verified product instructions will be added here.
-
-[Back to curling.tools ↗](https://www.curling.tools/)
 
 </div>
 

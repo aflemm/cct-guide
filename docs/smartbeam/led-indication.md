@@ -23,19 +23,13 @@ The arrow-shaped LED always indicates the state of that unit's beam.
 | <span class="led-colour" data-led-colour="red">Red</span> | Beam broken. |
 | <span class="led-colour" data-led-colour="green">Green</span> | Beam established. |
 
-This is separate from the system state LEDs: the arrow shows the beam state, while the ends of the light-bar show connection and timing states.
+This is separate from the system-state LEDs: the arrow shows the beam state, while the ends of the light-bar show connection and timing states.
 
 ## Charging state LED
 
-The LED above the USB port indicates charging status whenever USB power is present. It remains illuminated while USB is powered, even if the SmartBeam unit is switched off.
+The LED above the USB port shows <span class="led-colour" data-led-colour="orange">orange</span> while charging and <span class="led-colour" data-led-colour="green">green</span> when full. See [Charging](charging.md#read-the-charging-light) for the full indication table and USB power instructions.
 
-| LED indication | Meaning |
-| --- | --- |
-| Off | USB is not powered. |
-| <span class="led-colour" data-led-colour="orange">Orange</span> | Battery charging. |
-| <span class="led-colour" data-led-colour="green">Green</span> | Battery charging complete. |
-
-## System state LEDs
+## System-state LEDs
 
 The LEDs at the ends of the top light-bar indicate the following states.
 
@@ -70,7 +64,7 @@ The LEDs at the ends of the top light-bar indicate the following states.
 
 ## Related topics
 
-- [Arming and Timing](arming-and-timing.md)
+- [Arming and Timing](arming-and-timing/index.md)
 - [Charging](charging.md)
 - [Connecting](connecting-smartbeam.md)
 

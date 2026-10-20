@@ -27,7 +27,7 @@ For the meaning and units of each reading, see [Understanding Results](understan
 
 Open **Settings → Data Management**. **Database Details** shows the number of timed rocks stored, their date range, and the storage size.
 
-Completed measurements are saved automatically. A timed-out throw can contain only the measurements completed before the timeout; cancelling a throw does not save it. See [Arming and Timing](arming-and-timing.md).
+Completed measurements are saved automatically. A timed-out throw can contain only the measurements completed before the timeout; cancelling a throw does not save it. See [Cancelling and Timeouts](cancelling-and-timeouts.md).
 
 ## Export to CSV
 

@@ -1,8 +1,8 @@
 [project]
-site_name = "Curling Tools User Guide"
+site_name = "Curling Tools Product Guides"
 # Temporary sharing URL; restore https://guide.curling.tools/ when the domain is connected.
 site_url = "https://aflemm.github.io/cct-guide/"
-site_description = "User guides for Curling Tools products."
+site_description = "Product guides for Curling Tools products."
 docs_dir = "docs"
 site_dir = "site"
 use_directory_urls = true
@@ -10,40 +10,46 @@ extra_css = ["assets/stylesheets/brand.css"]
 nav = [
   { "Home" = "index.md" },
   { "SmartBroom" = [
-    { "Getting started" = "smartbroom/getting-started.md" },
-    { "Details" = [
-      { "Connecting SmartBroom" = "smartbroom/connecting-smartbroom.md" },
+    { "Getting Started" = "smartbroom/getting-started.md" },
+    { "Essentials" = [
+      { "SmartBroom App" = "smartbroom/smartbroom-app.md" },
       { "Charging" = "smartbroom/charging.md" },
-      { "Using SmartBroom" = "smartbroom/using-smartbroom.md" },
-      { "LED indicators" = "smartbroom/led-indicators.md" },
-      { "Background recording" = "smartbroom/background-recording.md" },
-      { "Sessions" = "smartbroom/sessions.md" },
-      { "Charts" = "smartbroom/charts.md" },
-      { "Video" = "smartbroom/video.md" },
+      { "Connecting" = "smartbroom/connecting-smartbroom.md" },
+      { "Live Sweeping" = "smartbroom/using-smartbroom.md" },
+      { "Understanding Results" = "smartbroom/understanding-results.md" },
+    ] },
+    { "Beyond" = [
+      { "Background Recording" = "smartbroom/background-recording.md" },
+      { "Bonding and Ownership" = "smartbroom/bonding.md" },
+      { "Sessions and Downloads" = "smartbroom/sessions.md" },
+      { "Multiple Windows on iPad" = "smartbroom/ipad-windows.md" },
+      { "Raw Live Data" = "smartbroom/raw-live-data.md" },
+      { "LED Indication" = "smartbroom/led-indicators.md" },
       { "Settings" = "smartbroom/settings.md" },
-      { "Firmware updates" = "smartbroom/firmware-updates.md" },
-      { "Troubleshooting" = [
-        { "Overview" = "smartbroom/troubleshooting/index.md" },
-        { "Bluetooth and pairing" = "smartbroom/troubleshooting/bluetooth-and-pairing.md" },
-        { "Charging" = "smartbroom/troubleshooting/charging.md" },
-        { "Recording" = "smartbroom/troubleshooting/recording.md" },
-        { "Firmware updates" = "smartbroom/troubleshooting/firmware-updates.md" },
-        { "Reset" = "smartbroom/troubleshooting/reset.md" },
-      ] },
+      { "Firmware Updates" = "smartbroom/firmware-updates.md" },
     ] },
   ] },
   { "SmartBeam" = [
-    { "Getting started" = "smartbeam/getting-started.md" },
+    { "Getting Started" = "smartbeam/getting-started.md" },
     { "Essentials" = [
       { "SmartBeam App" = "smartbeam/smartbeam-app.md" },
-      { "Connecting" = "smartbeam/connecting-smartbeam.md" },
-      { "Setting up Beams" = "smartbeam/setting-up-beams.md" },
-      { "Arming and Timing" = "smartbeam/arming-and-timing.md" },
-      { "Understanding Results" = "smartbeam/understanding-results.md" },
       { "Charging" = "smartbeam/charging.md" },
+      { "Connecting" = "smartbeam/connecting-smartbeam.md" },
+      { "Setting up Beams" = [
+        { "Setting up Beams" = "smartbeam/setting-up-beams/index.md" },
+        { "Choosing Measurements" = "smartbeam/choosing-measurements.md" },
+        { "Beam Alignment" = "smartbeam/beam-alignment.md" },
+        { "Managing Beams in the App" = "smartbeam/setting-up-beams/managing-beams-in-the-app.md" },
+      ] },
+      { "Arming and Timing" = [
+        { "Arming and Timing" = "smartbeam/arming-and-timing/index.md" },
+        { "Timing Lights and Status" = "smartbeam/arming-and-timing/timing-lights-and-status.md" },
+        { "Arming Modes" = "smartbeam/arming-modes.md" },
+        { "Cancelling and Timeouts" = "smartbeam/cancelling-and-timeouts.md" },
+      ] },
+      { "Understanding Results" = "smartbeam/understanding-results.md" },
     ] },
     { "Beyond" = [
-      { "Beam Alignment" = "smartbeam/beam-alignment.md" },
       { "History and Data" = "smartbeam/history-and-data.md" },
       { "Saved Devices" = "smartbeam/saved-devices.md" },
       { "LED Indication" = "smartbeam/led-indication.md" },
@@ -60,12 +66,11 @@ language = "en"
 custom_dir = "overrides"
 # Official wordmark from the Curling Tools website.
 logo = "assets/images/shared/curling-tools-logo.png"
-# Add an approved favicon before enabling this path:
-# favicon = "assets/images/shared/favicon.png"
 features = [
   "navigation.tabs",
   "navigation.tabs.sticky",
   "navigation.sections",
+  "navigation.indexes",
   "navigation.path",
   "navigation.footer",
   "toc.follow",
@@ -80,7 +85,6 @@ font = false
 [[project.theme.palette]]
 media = "(prefers-color-scheme)"
 
-# Temporary standard palette; change primary/accent here for approved branding.
 [[project.theme.palette]]
 media = "(prefers-color-scheme: light)"
 scheme = "default"
@@ -97,12 +101,6 @@ accent = "blue"
 generator = false
 homepage = "https://www.curling.tools/"
 
-# Add approved social/contact destinations; no account URLs are assumed.
-# [[project.extra.social]]
-# icon = "lucide/mail"
-# link = "mailto:APPROVED_SUPPORT_ADDRESS"
-# name = "Contact Curling Tools"
-
 [project.markdown_extensions]
 attr_list = {}
 md_in_html = {}
@@ -110,13 +108,7 @@ admonition = {}
 toc.permalink = true
 pymdownx.superfences = {}
 pymdownx.tabbed.alternate_style = true
-pymdownx.snippets.base_path = ["docs/_shared"]
-pymdownx.snippets.check_paths = true
 
 [project.validation.links]
 not_found = "warn"
 anchors = "warn"
-
-# Native exclusion support; no third-party plugin dependency is needed.
-[project.plugins.exclude]
-glob = ["_shared/**"]

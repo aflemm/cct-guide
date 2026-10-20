@@ -21,7 +21,7 @@ The app shows the splits supported by the beams you have assigned. Several split
 
 For the same pair of beam locations, a shorter split means the rock covered that distance faster. Compare like with like: a back-to-hog time and a hog-to-hog time describe different distances and different parts of the throw.
 
-See [Setting up Beams](setting-up-beams.md#combine-measurements-in-one-setup) to choose and combine measurements.
+See [Choosing Measurements](choosing-measurements.md#combine-measurements-in-one-setup) to choose and combine measurements.
 
 ## Rock speeds
 
@@ -29,13 +29,9 @@ Each beam measures speed at its own location. The app displays speeds in **metre
 
 For example, **2.0 m/s at Beyond Home Hog** describes the rock's speed at that beam. It is a local speed reading, rather than the average speed over a split. A higher number means the rock is moving faster at that location.
 
-A speed reading is calculated from how long the rock blocks one beam. The front of the rock must break it first, and the beam must clear behind the rock. A broom, foot, or body extending the interruption can produce an inaccurate speed.
-
-Every beam can measure speed. Beyond the throwing-end hog line is the best position for a clean post-release reading because the rock is more likely to be clear of the thrower and their broom. See [Speed at every beam](setting-up-beams.md#speed-at-every-beam) for placement guidance.
+For valid readings, the rock must pass cleanly through the beam. See [Speed at every beam](choosing-measurements.md#speed-at-every-beam) for how speed is measured, what can interfere with it, and why beyond the throwing-end hog line is the best placement for post-release speed.
 
 ## Read the live display
-
-Before a throw starts, the main numbers show the latest available saved readings for the displayed splits and locations.
 
 Once the first beam starts the timed throw:
 
@@ -46,7 +42,7 @@ Once the first beam starts the timed throw:
 
 A displayed **0.00 s** or **0.00 m/s** can mean the measurement has not been captured yet. It does not necessarily mean the rock took no time or had zero speed.
 
-Use the lights and app status to tell whether the system is waiting, timing, or finished. See [Arming and Timing](arming-and-timing.md#how-to-know-the-system-is-ready).
+Use the lights and app status to tell whether the system is waiting, timing, or finished. See [Arming and Timing](arming-and-timing/index.md#how-to-know-the-system-is-ready).
 
 ## Compare recent readings
 
@@ -80,6 +76,5 @@ The **Display times in sheet order** option in **Settings → Display** arranges
 - **A speed row is absent:** check the speed display filter and whether that beam is included in the current throwing direction's timing sequence.
 - **A speed looks wrong:** check for a broom, foot, or other obstruction extending the beam break.
 - **Some measurements are missing from a saved throw:** the sequence may have timed out before all beams were reached. Completed measurements can still be saved.
-- **A row seems unchanged after a throw:** it may be showing an earlier measurement because the new throw did not capture that result. Check the individual throw in History.
 
-For starting, cancelling, and timing out a throw, see [Arming and Timing](arming-and-timing.md).
+For starting a throw, see [Arming and Timing](arming-and-timing/index.md). For stopping it or handling an incomplete throw, see [Cancelling and Timeouts](cancelling-and-timeouts.md).

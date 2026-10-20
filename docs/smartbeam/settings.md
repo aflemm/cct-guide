@@ -20,7 +20,7 @@ The scanner button at the top right opens the Bluetooth scanner. See [Connecting
 
 Choose **Manual**, **Automatic**, or **First Beam**. Automatic mode also has a delay control for the wait before re-arming.
 
-See [Arming and Timing](arming-and-timing.md#choose-an-arming-mode) for the controls and how each mode works.
+See [Arming Modes](arming-modes.md) for the controls and how each mode works.
 
 ## Display
 
@@ -36,7 +36,7 @@ See [Understanding Results](understanding-results.md) for reading the display an
 
 **Automatically Restore Last Setup** restores beam placements by matching the colours in your last used setup as units connect. If a colour needs you to choose between units, place that beam yourself. Automatic restoration stops when you start timing a rock.
 
-Always check that the restored assignments match the hardware's actual positions before arming. See [Setting up Beams](setting-up-beams.md#match-the-setup-in-the-app).
+Always check that the restored assignments match the hardware's actual positions before arming. See [Managing Beams in the App](setting-up-beams/managing-beams-in-the-app.md#match-the-setup-in-the-app).
 
 ## Active Beam Locations
 
@@ -45,7 +45,7 @@ Always check that the restored assignments match the hardware's actual positions
 | **Far tee-line and back-line** | Includes assigned beams at the receiving-end tee and back lines in the timing sequence. Useful for hit-speed practice; the rock must reach those positions for the sequence to finish normally. |
 | **Between hog-line locations** | Makes the centre-sheet and beyond-hog positions available for placing beams, including post-release speed measurements. |
 
-See [Setting up Beams](setting-up-beams.md) for choosing physical and app locations.
+See [Setting up Beams](setting-up-beams/index.md) for choosing physical and app locations.
 
 ## Power Saving
 
