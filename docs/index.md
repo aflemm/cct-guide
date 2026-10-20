@@ -53,6 +53,17 @@ hide:
   </div>
 </a>
 
+<a class="guide-product guide-product--secondary" href="lightbroom/getting-started/" aria-labelledby="lightbroom-title">
+  <div class="guide-product__photo">
+    <img src="assets/images/lightbroom/lightbroom.jpg" alt="LightBroom head glowing with multicoloured LEDs above a yellow fabric sleeve" width="1000" height="992" loading="lazy">
+  </div>
+  <div class="guide-product__content">
+    <p class="guide-product__eyebrow">PRODUCT GUIDE</p>
+    <h2 id="lightbroom-title">LightBroom</h2>
+    <span class="guide-product__action">Explore the product guide <span aria-hidden="true">→</span></span>
+  </div>
+</a>
+
 <a class="guide-product guide-product--secondary" href="rockarm/" aria-labelledby="rockarm-title">
   <div class="guide-product__photo">
     <img src="assets/images/rockarm/rockarm.png" alt="RockArm holding a phone upright above a red-handled curling rock" width="800" height="800" loading="lazy">

@@ -82,6 +82,19 @@ nav = [
       { "Replacing Sleeves" = "corebroom/replacing-sleeves.md" },
     ] },
   ] },
+  { "LightBroom" = [
+    { "Getting Started" = "lightbroom/getting-started.md" },
+    { "Overview" = "lightbroom/index.md" },
+    { "Broom Basics" = [
+      { "Replacing Sleeves" = "lightbroom/replacing-sleeves.md" },
+    ] },
+    { "Competition Use" = "lightbroom/competition-compliance/index.md" },
+    { "Essentials" = [
+      { "Using LightBroom" = "lightbroom/using-lightbroom.md" },
+      { "Choosing Colours" = "lightbroom/colours-and-effects.md" },
+      { "Charging" = "lightbroom/charging.md" },
+    ] },
+  ] },
   { "RockArm" = [
     { "Using RockArm" = "rockarm/index.md" },
   ] },
