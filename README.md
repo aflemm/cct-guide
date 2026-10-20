@@ -1,6 +1,6 @@
 # Curling Tools Product Guides
 
-Product guides for SmartBroom 4 and SmartBeam, built with
+Product guides for SmartBroom 4, SmartBeam, CoreBroom, and RockArm, built with
 [Zensical](https://zensical.org/docs/).
 
 [Read the product guides](https://docs.curling.tools/) ·
@@ -32,9 +32,12 @@ Generated files appear in `site/`. Do not commit generated output, `.venv/`, or
 
 ## Contributing
 
-Product pages live under `docs/smartbroom/` and `docs/smartbeam/`. Navigation and
+Product pages live under `docs/smartbroom/`, `docs/smartbeam/`,
+`docs/corebroom/`, and `docs/rockarm/`. Navigation and
 site settings are in `zensical.toml`. Shared broom care and competition pages
 live under `docs/broom-basics/` so product guides can reference the same content.
+CoreBroom pages include these shared sections with `pymdownx.snippets` so the
+content stays in one place while navigation remains within the CoreBroom guide.
 
 - Publish verified instructions and use the app's exact control labels.
 - Keep product instructions in these guides and link to the relevant guide pages rather than legacy support articles.
@@ -70,3 +73,7 @@ information, and compress images before adding them.
 
 Product photographs, the beam-adjustment image, and branding come from the
 official [Curling Tools website](https://curling.tools/).
+
+CoreBroom and RockArm photos are sourced from the official product pages:
+[CoreBroom](https://curling.tools/pages/corebroom) and
+[RockArm](https://curling.tools/products/rockarm).

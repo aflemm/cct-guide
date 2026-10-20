@@ -40,6 +40,32 @@ hide:
 
 </div>
 
+<div class="guide-home__products guide-home__products--secondary">
+
+<a class="guide-product guide-product--secondary" href="corebroom/" aria-labelledby="corebroom-title">
+  <div class="guide-product__photo">
+    <img src="assets/images/corebroom/corebroom.jpg" alt="CoreBroom head with a translucent body and yellow fabric sleeve" width="1000" height="566" loading="lazy">
+  </div>
+  <div class="guide-product__content">
+    <p class="guide-product__eyebrow">PRODUCT GUIDE</p>
+    <h2 id="corebroom-title">CoreBroom</h2>
+    <span class="guide-product__action">Explore the product guide <span aria-hidden="true">→</span></span>
+  </div>
+</a>
+
+<a class="guide-product guide-product--secondary" href="rockarm/" aria-labelledby="rockarm-title">
+  <div class="guide-product__photo">
+    <img src="assets/images/rockarm/rockarm.png" alt="RockArm holding a phone upright above a red-handled curling rock" width="800" height="800" loading="lazy">
+  </div>
+  <div class="guide-product__content">
+    <p class="guide-product__eyebrow">PRODUCT GUIDE</p>
+    <h2 id="rockarm-title">RockArm</h2>
+    <span class="guide-product__action">Explore the product guide <span aria-hidden="true">→</span></span>
+  </div>
+</a>
+
+</div>
+
 <div class="guide-home__support" markdown>
 
 <div markdown>

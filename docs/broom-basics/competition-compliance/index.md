@@ -2,6 +2,7 @@
 icon: lucide/badge-check
 ---
 
+<!-- --8<-- [start:content] -->
 # Competition Use
 
 **SmartBroom 3, SmartBroom 4, and CoreBroom are World Curling approved for competition at every level, including the Olympic Games.** Fit your broom with the approved foam and competition sleeve, and you can take it from club play to the highest level of the sport.
@@ -20,3 +21,5 @@ Approval applies to the complete setup. A competition sleeve alone does not make
 Keep this combination together when replacing a sleeve or foam. Follow [Replacing Sleeves](../replacing-sleeves.md) for the replacement procedure.
 
 For the governing specifications and current approved list, see [World Curling's equipment reference](https://worldcurling.org/brushes/).
+
+<!-- --8<-- [end:content] -->

@@ -2,6 +2,7 @@
 icon: lucide/wrench
 ---
 
+<!-- --8<-- [start:content] -->
 # Replacing Sleeves
 
 Replace the fabric sleeve when it becomes worn or dirty. The foam and two tension plates are reusable; changing the sleeve does not require replacing the whole pad.
@@ -22,3 +23,5 @@ Curling Tools offers recreational and competition sleeves for its brooms. For co
 6. **Snap the head back into the pad.** Check that it is fully seated and the pad is securely attached before sweeping.
 
 If the head will not seat properly, remove it and check the plates' position and alignment before trying again.
+
+<!-- --8<-- [end:content] -->

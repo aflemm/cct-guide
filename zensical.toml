@@ -71,6 +71,20 @@ nav = [
       { "RockArm" = "smartbeam/rockarm.md" },
     ] },
   ] },
+  { "CoreBroom" = [
+    { "CoreBroom" = "corebroom/index.md" },
+    { "Broom Basics" = [
+      { "Competition Use" = [
+        { "Competition Use" = "corebroom/competition-compliance/index.md" },
+        { "WCF Product Code" = "corebroom/competition-compliance/finding-your-product-code.md" },
+        { "Checking Your Foam" = "corebroom/competition-compliance/checking-your-foam.md" },
+      ] },
+      { "Replacing Sleeves" = "corebroom/replacing-sleeves.md" },
+    ] },
+  ] },
+  { "RockArm" = [
+    { "Using RockArm" = "rockarm/index.md" },
+  ] },
   { "Contact" = "contact.md" },
 ]
 
@@ -120,6 +134,7 @@ md_in_html = {}
 admonition = {}
 toc.permalink = true
 pymdownx.superfences = {}
+pymdownx.snippets = { check_paths = true }
 pymdownx.tabbed.alternate_style = true
 
 [project.validation.links]
