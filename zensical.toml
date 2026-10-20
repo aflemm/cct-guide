@@ -15,7 +15,11 @@ nav = [
   { "SmartBroom" = [
     { "Getting Started" = "smartbroom/getting-started.md" },
     { "Broom Basics" = [
-      { "Competition Compliance" = "broom-basics/competition-compliance.md" },
+      { "Competition Use" = [
+        { "Competition Use" = "broom-basics/competition-compliance/index.md" },
+        { "WCF Product Code" = "broom-basics/competition-compliance/finding-your-product-code.md" },
+        { "Checking Your Foam" = "broom-basics/competition-compliance/checking-your-foam.md" },
+      ] },
       { "Replacing Sleeves" = "broom-basics/replacing-sleeves.md" },
     ] },
     { "Essentials" = [

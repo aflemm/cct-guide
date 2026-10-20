@@ -1,5 +1,5 @@
 ---
-icon: lucide/download
+icon: lucide/refresh-cw
 ---
 
 # Firmware Updates

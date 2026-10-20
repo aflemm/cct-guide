@@ -1,5 +1,5 @@
 ---
-icon: lucide/history
+icon: lucide/database
 ---
 
 # Background Recording

@@ -8,6 +8,15 @@ The SmartBroom app connects to your broom, shows live sweeping measurements, and
 
 [Download on the App Store](https://apps.apple.com/ca/app/smartbroom/id1453540933){ .md-button .md-button--primary }
 
+## Compatibility
+
+| Device | Minimum operating system |
+| --- | --- |
+| **iPhone** | iOS **17** or later. |
+| **iPad** | iPadOS **17** or later. |
+
+Enable Bluetooth and allow the app to use it. See [Connecting](connecting-smartbroom.md) for permissions and setup. On iPad, you can use [multiple windows with separate brooms](ipad-windows.md).
+
 ## Find your way around
 
 | Tab | What you do here |

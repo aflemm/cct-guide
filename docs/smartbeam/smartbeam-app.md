@@ -20,6 +20,15 @@ The SmartBeam app is free and connects to your SmartBeams to display split times
 
     [Request Android beta access](mailto:smartbeam-android@smartbroom.ca){ .md-button .md-button--primary }
 
+## Compatibility
+
+| Device | Minimum operating system |
+| --- | --- |
+| **iPhone** | iOS **18.6** or later. |
+| **Android device** | Android **12** or later. Access is through the beta program above. |
+
+Enable Bluetooth and allow the app to connect to nearby devices. See [Connecting](connecting-smartbeam.md) for permissions and setup.
+
 ## Find your way around
 
 The iPhone app has four tabs:

@@ -1,5 +1,5 @@
 ---
-icon: lucide/settings
+icon: lucide/wrench
 ---
 
 # Replacing Sleeves
@@ -8,7 +8,7 @@ Replace the fabric sleeve when it becomes worn or dirty. The foam and two tensio
 
 ## Choose a sleeve
 
-Curling Tools offers recreational and competition sleeves for its brooms. For competition, check [Competition Compliance](competition-compliance.md) before fitting a new sleeve: the broom, foam, and sleeve must form an approved combination.
+Curling Tools offers recreational and competition sleeves for its brooms. For competition, check [Competition Use](competition-compliance/index.md) before fitting a new sleeve: the broom, foam, and sleeve must form an approved combination.
 
 [Find replacement sleeves on curling.tools](https://curling.tools/products/pad-sleeves-recreational-10-pack).
 
