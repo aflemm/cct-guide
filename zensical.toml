@@ -12,7 +12,7 @@ use_directory_urls = true
 extra_css = ["assets/stylesheets/brand.css"]
 nav = [
   { "Home" = "index.md" },
-  { "SmartBroom" = [
+  { "SmartBroom 4" = [
     { "Overview" = "smartbroom/index.md" },
     { "Getting Started" = "smartbroom/getting-started.md" },
     { "Broom Basics" = [
@@ -85,8 +85,8 @@ nav = [
     ] },
   ] },
   { "LightBroom" = [
-    { "Getting Started" = "lightbroom/getting-started.md" },
     { "Overview" = "lightbroom/index.md" },
+    { "Getting Started" = "lightbroom/getting-started.md" },
     { "Broom Basics" = [
       { "Replacing Sleeves" = "lightbroom/replacing-sleeves.md" },
     ] },

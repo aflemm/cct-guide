@@ -53,7 +53,7 @@ hide:
   </div>
 </a>
 
-<a class="guide-product guide-product--secondary" href="lightbroom/getting-started/" aria-labelledby="lightbroom-title">
+<a class="guide-product guide-product--secondary" href="lightbroom/" aria-labelledby="lightbroom-title">
   <div class="guide-product__photo">
     <img src="assets/images/lightbroom/lightbroom.jpg" alt="LightBroom head glowing with multicoloured LEDs above a yellow fabric sleeve" width="1000" height="992" loading="lazy">
   </div>

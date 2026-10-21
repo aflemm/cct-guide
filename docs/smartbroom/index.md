@@ -2,7 +2,7 @@
 icon: lucide/book-open
 ---
 
-# SmartBroom
+# SmartBroom 4
 
 **SmartBroom 4** measures your sweeping so you can see how you apply force, compare sweeps, and track your performance. Use these guides with the SmartBroom app on iPhone or iPad.
 
